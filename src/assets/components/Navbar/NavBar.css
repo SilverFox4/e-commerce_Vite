@@ -1,0 +1,17 @@
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0E376C;
+    color: white;
+
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+

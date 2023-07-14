@@ -1,0 +1,26 @@
+.contenedorItem {
+    text-align: start;
+    border: 1px solid white;
+    margin: 3rem;
+    background-color: #555;
+    border-radius: 20px;
+    color: white;
+    padding: 1rem;
+}
+
+img {
+    width: 500px;
+    padding: 2rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.imgContenedor {
+    align-items: center;
+}
