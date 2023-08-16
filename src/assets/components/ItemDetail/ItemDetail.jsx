@@ -5,7 +5,7 @@ import "./ItemDetail.css";
 import { CarritoContext } from "../../../context/CarritoContext";
 import { useContext } from "react";
 
-const ItemDetail = ({id, nombre, precio, img, stock }) => {
+const ItemDetail = ({ id, nombre, precio, img, stock }) => {
   const [agregarCantidad, setAgregarCantidad] = useState(0);
 
   const { agregarProducto } = useContext(CarritoContext);
